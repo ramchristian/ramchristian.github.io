@@ -1,0 +1,330 @@
+header{
+  width: 100%;
+  background: #131313;
+  color: white;
+  border-bottom: 5px solid #f40c00;
+}
+
+header::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+header > h1{
+  margin: 0;
+  font-weight: 100;
+  float: left;
+  line-height: 50px;
+  padding: 20px;
+}
+
+h1 > span{
+  font-weight: 900;
+}
+
+nav{
+  float: right;
+}
+
+nav > ul li{
+  display: inline;
+  margin-right: 100px;
+  line-height: 50px;
+}
+
+nav > ul li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+div > a> .button10{
+  margin-bottom: 50px;
+}
+  .button10{
+    padding: 10px 30px;
+    border: 1px solid black;
+    font-size: .5em;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .2s ease;
+  }
+
+  .button10:hover{
+    background: black;
+    color: white;
+
+}
+
+div > p{
+font-style: normal;
+font-size: 20px;
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+
+.active{
+  font-weight: 900;
+}
+
+.main-container{
+  width: 100%;
+  background: grey;
+}
+.listenmusic-background{
+  background: url('../img/pexels-photo-10.jpeg')
+}
+
+.main-home-background{
+  background: url('../img/header-bg.jpeg') center center no-repeat;
+  background-size: cover;
+}
+
+.main-about-background{
+  background: url('../img/guitar-classical.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.music-container1{
+  background: url('../img/pexels-photo-1.jpeg') center center no-repeat;
+  background-size: cover;
+}
+
+.music-container2{
+  background: url('../img/reggae.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.music-container3{
+  background: url('../img/piano.jpeg') center center no-repeat;
+  background-size: cover;
+}
+
+.music-container4{
+  background: url('../img/guitar-classical.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.music-container5{
+  background: url('../img/pexels-photo-.jpeg') center center no-repeat;
+}
+
+.main-wrapper{
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  padding: 50px 0;
+}
+
+.main-content{
+  padding: 100px 200px;
+  background-color: rgba(255,255,255,.4);
+  text-align: center;
+
+}
+
+.music-content{
+  font-style: normal;
+
+}
+
+
+div > span{
+  font-weight: bold;
+  font-size: 50;
+  font-style: normal;
+  color: #ff4d00
+
+
+}
+
+div{
+  font-size: 50;
+  font-style: italic;
+}
+
+hr{
+  width: 100px;
+  margin: 25px auto;
+  height: 1px;
+  outline: none;
+  border: 0;
+  background: black;
+}
+
+.button{
+  padding: 10px 30px;
+  border: 1px solid black;
+  font-size: .5em;
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.button:hover{
+  background: black;
+  color: white;
+}
+
+.article-container{
+  background: url('../img/pexels-photo-25.jpg');
+  display: flex;
+  justify-content: space-around;
+}
+
+.article{
+  width: 600px;
+  padding: 20px;
+  background-color: rgba(255,255,255,.50);
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: arial;
+}
+
+.article3{
+  width: 600px;
+  padding: 20px;
+  background-color: rgba(255,255,255,.50);
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: arial;
+  margin-bottom: 40px;
+}
+
+.article-right{
+  width: 450px;
+  height: 500px;
+  padding:20px;
+  background-color: rgba(255,255,255,.50);
+  margin-top: 20px;
+  border-top: 5px solid #f40c00;
+  border-left: 2px solid #f40c00;
+  align-items: center;
+
+}
+
+.article-right > span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.article-right > ol li{
+ font-size: 20px;
+
+}
+
+.article-right > ol li > a{
+  color: black;
+  font-size: 25px;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px;
+}
+
+footer{
+  width: 100%;
+  background: #131313;
+  color: white;
+  border-top: 5px solid #f40c00;
+  margin-top: 0;
+}
+
+footer::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+footer > h1{
+  margin: 0;
+  font-weight: 200;
+  align-items: center;
+  line-height: 50px;
+  padding: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+h1 > span{
+  font-weight: 900;
+}
+
+.aboutmusic{
+  width: 100%;
+  background: #131313;
+  color: white;
+  border-top: 5px solid #f40c00;
+  margin-top: 0;
+}
+
+footer >::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.aboutmusic > h1{
+  margin: 0;
+  font-weight: 100;
+  align-items: center;
+  line-height: 50px;
+  padding: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+h1 > span{
+  font-weight: 900;
+}
+
+ol li{
+  font-size: 20px;
+
+}
+
+.listen-wrapper{
+  justify-content: right;
+  align-items: flex-start;
+  padding: 50px 0;
+
+
+}
+
+.listen-content > div > audio > ol li{
+  font-size: 15px;
+  color: white;
+  float: left;
+  margin: 20px;
+}
+.listen-wrapper > div > ol li{
+  font-size: 15px;
+  color: white;
+  float: left;
+  margin: 20px;
+}
+
+.listenmusic-background > div > audio > ol li{
+  font-size: 15px;
+  color: white;
+  float: left;
+  margin: 30px;
+}
+
+ol::after{
+  content: '';
+  display: block;
+  clear: both;
+}
